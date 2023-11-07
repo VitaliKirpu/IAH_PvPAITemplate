@@ -1,0 +1,48 @@
+{
+ "apiKey" : "<yourapikey>",
+ "teamName" : "Red Cyber Bullies",
+ "hackerType" : 4,
+ "composition" : [
+       {
+    "entityType": 30,
+    "mLevel": 42,
+    "equips" : [24,24,24,34],
+    "mask" : 64,
+    "scarf" : 61,
+    "weaponDye" : [1],
+    "botDye" : [1,2,2],
+    "weaponMods" : [87,86,79]
+  },
+  {
+    "entityType": 51,
+    "mLevel": 42,
+    "equips" : [24,24,24,34],
+    "mask" : 64,
+    "scarf" : 61,
+    "weaponDye" : [1],
+    "botDye" : [1,2,2],
+    "weaponMods" : [87,86,79]
+  },
+  {
+    "entityType": 51,
+    "mLevel": 23,
+    "equips" : [24,24,24,34],
+    "mask" : 64,
+    "scarf" : 61,
+    "weaponDye" : [1],
+    "botDye" : [1],
+    "weaponMods" : [87,86,79]
+  },
+  {
+    "entityType": 51,
+    "mLevel": 64,
+    "equips" : [24,24,24,34],
+    "mask" : 64,
+    "scarf" : 61,
+    "weaponDye" : [1],
+    "botDye" : [1],
+    "weaponMods" : [87,86,79]
+  }
+]
+    
+}
