@@ -11,3 +11,7 @@ IAH: INTERNET WAR Steam Page: **https://store.steampowered.com/app/304770/IAH_IN
 Main Website: **https://iamhacker.cc/**
 
 <p align="center"><img src="GIF_2.gif" title="combat bot robots shooting"/> </p>
+
+PvP API Documentation Wiki:
+
+https://github.com/VitaliKirpu/IAH_PvPAITemplate/wiki/IAH:-INTERNET-WAR-%7C-PVP-AI-API
