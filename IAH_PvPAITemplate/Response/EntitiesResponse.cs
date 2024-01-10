@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using IAH_PvPAITemplate.Class;
 
 namespace IAH_PvPAITemplate
 {

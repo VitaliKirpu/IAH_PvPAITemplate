@@ -64,14 +64,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity.cs" />
+    <Compile Include="Class\AIBase.cs" />
+    <Compile Include="Class\AI\HelloWorldAI.cs" />
+    <Compile Include="Class\ApiConnector.cs" />
+    <Compile Include="Class\Debugger.cs" />
+    <Compile Include="Class\Entity.cs" />
+    <Compile Include="Class\EntityReducer.cs" />
+    <Compile Include="Class\MatchInstance.cs" />
+    <Compile Include="Class\Requests.cs" />
+    <Compile Include="Interface\IAIProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Response\ApiPasswordResponse.cs" />
     <Compile Include="Response\EntitiesResponse.cs" />
     <Compile Include="Response\MatchStateResponse.cs" />
     <Compile Include="Response\PostResponse.cs" />
-    <Compile Include="Requests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
