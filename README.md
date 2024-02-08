@@ -2,9 +2,9 @@
 
 IAH: INTERNET WAR is a futuristic strategy game you can play using a programming language or a computer mouse.
 
-Engage in endless internet battles against AI or other players. Participate in tournaments and stand a chance to win prizes that can change your life.
+Participate in tournaments and stand a chance to win prizes that can change your life.
 
-For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. In this mode, you cannot use a cursor or controller; your interactions are limited to the API Interface. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
+For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
 
 <p align="center"><img src="GIF_1.gif" title="combat bot robots shooting"/> </p>
 
