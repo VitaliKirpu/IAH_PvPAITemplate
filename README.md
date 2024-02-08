@@ -6,7 +6,7 @@ Participate in tournaments and stand a chance to win prizes that can change your
 
 For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
 
-<p align="center"><img src="GIF_1.gif" title="combat bot robots shooting"/> </p>
+<p align="left"><img src="GIF_1.gif" title="combat bot robots shooting"/> </p>
 
 Steam Page
 
@@ -16,7 +16,6 @@ Website
 
 **https://iamhacker.cc/**
 
-<p align="center"><img src="GIF_2.gif" title="combat bot robots shooting"/> </p>
 
 PvP API Documentation Wiki:
 
