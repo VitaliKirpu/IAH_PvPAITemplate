@@ -22,12 +22,12 @@ PvP API Documentation Wiki:
 https://github.com/VitaliKirpu/IAH_PvPAITemplate/wiki/IAH:-INTERNET-WAR-%7C-PVP-AI-API
 ```mermaid
 flowchart TD
-    A[C# / JAVASCRIPT / C++ / RUST / ETC] --> B
+    A[C# / JavaScript / C++ / Rust / Etc] --> B
     B[http://127.0.0.1:6800/request_name] --> C{GameClient.exe}
 
     C -->|Requires API Password|D[ v1/botaction]
     C -->|Requires API Access|G[ v1/apipassword]
     C -->F[ v1/entities]
 
-G -->U[API Access is obtained from the https://iamhacker.cc]
+G -->U[API Access is obtained from https://iamhacker.cc]
 ```
