@@ -64,7 +64,7 @@ namespace IAH_PvPAITemplate.Class
 
         public async Task<List<Entity>> GetEntities()
         {
-            var getResponse = await httpClientReference.GetAsync("/v2/entities");
+            var getResponse = await httpClientReference.GetAsync("/v1/entities");
             var responseContent = await getResponse.Content.ReadAsStringAsync();
             if (getResponse.IsSuccessStatusCode)
             {
