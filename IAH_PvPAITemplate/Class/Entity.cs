@@ -82,7 +82,7 @@ namespace IAH_PvPAITemplate.Class
 
         public string team;
         public string teamCustom;
-        public string type;
+        public ushort type;
         public string ip;
     }
 
