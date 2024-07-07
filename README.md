@@ -1,8 +1,6 @@
 <p align="center">  <img src="iah_logo.png" width="350" title="IAH: INTERNET WAR logo"/> </p>
 
-IAH: INTERNET WAR is a futuristic strategy game you can play using a programming language or a computer mouse.
-
-Participate in tournaments and stand a chance to win prizes that can change your life.
+IAH: INTERNET WAR is a futuristic cyberpunk hacker RTS game: Create your own bot AI using any programming language or play with a mouse.
 
 For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
 
