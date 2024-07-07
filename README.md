@@ -1,17 +1,33 @@
 <p align="center">  <img src="iah_logo.png" width="350" title="IAH: INTERNET WAR logo"/> </p>
 
-IAH: INTERNET WAR is a unique and strategic turn-based RTS where you immerse yourself in an endless internet conflict. In this game, you'll embark on a thrilling journey to capture internet websites, eliminate malware, battle powerful corporations, resist government authorities, and outwit rival hackers.
+IAH: INTERNET WAR is a futuristic strategy game you can play using a programming language or a computer mouse.
 
-For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. In this mode, you cannot use a cursor or controller; your interactions are limited to the API Interface. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
+Participate in tournaments and stand a chance to win prizes that can change your life.
 
-<p align="center"><img src="GIF_1.gif" title="combat bot robots shooting"/> </p>
+For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
 
-IAH: INTERNET WAR Steam Page: **https://store.steampowered.com/app/304770/IAH_INTERNET_WAR/**
+<p align="left"><img src="GIF_1.gif" title="combat bot robots shooting"/> </p>
 
-Main Website: **https://iamhacker.cc/**
+Steam Page
 
-<p align="center"><img src="GIF_2.gif" title="combat bot robots shooting"/> </p>
+**https://store.steampowered.com/app/304770/IAH_INTERNET_WAR/**
+
+Website
+
+**https://iamhacker.cc/**
+
 
 PvP API Documentation Wiki:
 
 https://github.com/VitaliKirpu/IAH_PvPAITemplate/wiki/IAH:-INTERNET-WAR-%7C-PVP-AI-API
+```mermaid
+flowchart TD
+    A[C# / JavaScript / C++ / Rust / Etc] --> B
+    B[http://127.0.0.1:6800/request_name] --> C{GameClient.exe}
+
+    C -->|Requires API Password|D[ v1/botaction]
+    C -->|Requires API Access|G[ v1/apipassword]
+    C -->F[ v1/entities]
+
+G -->U[API Access is obtained from https://iamhacker.cc]
+```
