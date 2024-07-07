@@ -11,7 +11,7 @@ namespace IAH_PvPAITemplate
 {
     internal class Program
     {
-        const string JoinMatchEndpointUrl = "http://localhost:6880/V1/JOIN_MATCH";
+        const string JoinMatchEndpointUrl = "https://basic.iamhacker.cc/V1/JOIN_MATCH";
         const string MatchKey = "<matchkey>";
         const string AccountKey = "<account-key>";
 
