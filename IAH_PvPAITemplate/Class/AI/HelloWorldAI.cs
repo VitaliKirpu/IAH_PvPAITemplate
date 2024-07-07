@@ -14,38 +14,38 @@ namespace IAH_PvPAITemplate.Class.AI
             opposingTeam = EntityReducer.RemoveCreeps(opposingTeam);
 
             // we attack closest enemy.
-            opposingTeam = opposingTeam.OrderBy(entity => Vector3.Distance(currentEntity.position, entity.position))
+            opposingTeam = opposingTeam.OrderBy(entity => Vector3.Distance(currentEntity.vectors.pos, entity.vectors.pos))
                 .ToList();
 
             if (opposingTeam.Count > 0) // battle mode.
             {
-                var distance = Vector3.Distance(currentEntity.position, opposingTeam[0].position);
+                var distance = Vector3.Distance(currentEntity.vectors.pos, opposingTeam[0].vectors.pos);
 
-                var blocked = await GetMatchRequests().RayCast(currentEntity.uniqueID, opposingTeam[0].uniqueID);
+                var blocked = await GetMatchRequests().RayCast(currentEntity.id, opposingTeam[0].id);
 
-                if (distance < currentEntity.attackRange && blocked == false)
+                if (distance < currentEntity.combat.atkRange && blocked == false)
                 {
-                    await GetMatchRequests().BotAction(currentEntity.uniqueID, "rotate", opposingTeam[0].position);
-                    await GetMatchRequests().BotAction(currentEntity.uniqueID, "stop", "");
+                    await GetMatchRequests().BotAction(currentEntity.id, "rotate", opposingTeam[0].vectors.pos);
+                    await GetMatchRequests().BotAction(currentEntity.id, "stop", "");
                 }
                 else
                 {
-                    await GetMatchRequests().BotAction(currentEntity.uniqueID, "move", opposingTeam[0].position);
-                    await GetMatchRequests().BotAction(currentEntity.uniqueID, "rotate", opposingTeam[0].position);
+                    await GetMatchRequests().BotAction(currentEntity.id, "move", opposingTeam[0].vectors.pos);
+                    await GetMatchRequests().BotAction(currentEntity.id, "rotate", opposingTeam[0].vectors.pos);
                 }
 
-                await GetMatchRequests().BotAction(currentEntity.uniqueID, "attack", opposingTeam[0].uniqueID);
+                await GetMatchRequests().BotAction(currentEntity.id, "attack", opposingTeam[0].id);
             }
             else
             {
                 // no enemy bots. reload weapon and spin 360.
-                if (currentEntity.ammo != currentEntity.maxAmmo && currentEntity.reloading == false)
+                if (currentEntity.combat.ammo != currentEntity.combat.maxAmmo && currentEntity.combat.reloading == false)
                 {
-                    await GetMatchRequests().BotAction(currentEntity.uniqueID, "reload", "");
+                    await GetMatchRequests().BotAction(currentEntity.id, "reload", "");
                 }
 
-                await GetMatchRequests().BotAction(currentEntity.uniqueID, "rotate",
-                    currentEntity.position + currentEntity.right);
+                await GetMatchRequests().BotAction(currentEntity.id, "rotate",
+                    currentEntity.vectors.pos + currentEntity.vectors.right);
             }
 
             /*

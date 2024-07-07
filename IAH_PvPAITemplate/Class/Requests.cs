@@ -30,7 +30,7 @@ namespace IAH_PvPAITemplate.Class
             var jsonData = JsonConvert.SerializeObject(new Dictionary<string, object>
             {
                 {"ip", "127.0.0.1"},
-                {"apiKey", "placekeyhere"} // HTTPS://IAMHACKER.CC -> Get API Key
+                {"apiKey", "JnJ3ykpbEUxE-160il"} // HTTPS://IAMHACKER.CC -> Get API Key
             });
 
             var postResponse = await SendPostRequestAsync("/v1/apipassword", jsonData);
@@ -64,7 +64,7 @@ namespace IAH_PvPAITemplate.Class
 
         public async Task<List<Entity>> GetEntities()
         {
-            var getResponse = await httpClientReference.GetAsync("/v1/entities");
+            var getResponse = await httpClientReference.GetAsync("/v2/entities");
             var responseContent = await getResponse.Content.ReadAsStringAsync();
             if (getResponse.IsSuccessStatusCode)
             {

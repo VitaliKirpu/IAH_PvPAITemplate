@@ -9,7 +9,7 @@ namespace IAH_PvPAITemplate.Class
         public static List<Entity> RemoveCreeps(List<Entity> entities)
         {
             entities = entities
-                .Where(entity => !entity.tags.Contains("CREEP") && !entity.tags.Contains("NON-COMBAT"))
+                .Where(entity => !entity.initData.tags.Contains("CREEP") && !entity.initData.tags.Contains("NON-COMBAT"))
                 .ToList();
             return entities;
         }
