@@ -12,8 +12,8 @@ namespace IAH_PvPAITemplate
     internal class Program
     {
         const string JoinMatchEndpointUrl = "http://localhost:6880/V1/JOIN_MATCH";
-        const string MatchKey = "PKM-qG6WAi02PnoQ";
-        const string AccountKey = "JnJ3ykpbEUxE-160il";
+        const string MatchKey = "<matchkey>";
+        const string AccountKey = "<account-key>";
 
         public static async Task Main(string[] args)
         {
