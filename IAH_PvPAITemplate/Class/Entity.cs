@@ -12,7 +12,7 @@ namespace IAH_PvPAITemplate.Class
         public TransformedEntityVectors vectors;
         public TransformedEntityCombat combat;
     }
-    
+
     public class TransformedEntityVitals
     {
         public short lvl;
@@ -36,8 +36,7 @@ namespace IAH_PvPAITemplate.Class
         public float atkDelay;
         public string targetId;
     }
-
-
+    
     public class TransformedEntityVectors
     {
         public Vector3 pos;
