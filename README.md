@@ -1,10 +1,10 @@
-<p align="center">  <img src="iah_logo.png" width="350" title="IAH: INTERNET WAR logo"/> </p>
+<img src="iah_logo.png" width="350" title="IAH: INTERNET WAR logo"/>
 
 IAH: INTERNET WAR is a futuristic cyberpunk hacker RTS game: Create your own bot AI using any programming language or play with a mouse.
 
 For programmers seeking a competitive challenge, IAH offers algorithmic multiplayer. Create or join competitive clubs, write code solo or collaborate in a group, and use your preferred IDE and programming language to wage highly competitive algorithmic wars.
 
-<p align="center"><img src="GIF_1.gif" title="combat bot robots shooting"/> </p>
+<img src="GIF_1.gif" title="combat bot robots shooting"/>
 
 Steam Page
 
@@ -15,17 +15,6 @@ Website
 **https://iamhacker.cc/**
 
 
-PvP API Documentation Wiki:
+Documentation Wiki:
 
-https://github.com/VitaliKirpu/IAH_PvPAITemplate/wiki/IAH:-INTERNET-WAR-%7C-PVP-AI-API
-```mermaid
-flowchart TD
-    A[C# / JavaScript / C++ / Rust / Etc] --> B
-    B[http://127.0.0.1:6800/request_name] --> C{GameClient.exe}
-
-    C -->|Requires API Password|D[ v1/botaction]
-    C -->|Requires API Access|G[ v1/apipassword]
-    C -->F[ v1/entities]
-
-G -->U[API Access is obtained from https://iamhacker.cc]
-```
+**https://iah-internet-war.gitbook.io/api**
